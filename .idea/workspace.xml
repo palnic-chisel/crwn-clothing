@@ -26,6 +26,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\certimeter\Desktop\crwn-clothing\crwn-clothing\src\pages\homepage" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -50,7 +55,7 @@
       <updated>1579515874833</updated>
       <workItem from="1579515876976" duration="425000" />
       <workItem from="1579516323814" duration="149000" />
-      <workItem from="1579516588461" duration="1180000" />
+      <workItem from="1579516588461" duration="6356000" />
     </task>
     <servers />
   </component>
@@ -58,6 +63,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579519452394">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579519452394" />
     <state x="1507" y="134" key="SettingsEditor" timestamp="1579517158208">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
