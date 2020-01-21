@@ -55,7 +55,8 @@
       <updated>1579515874833</updated>
       <workItem from="1579515876976" duration="425000" />
       <workItem from="1579516323814" duration="149000" />
-      <workItem from="1579516588461" duration="9623000" />
+      <workItem from="1579516588461" duration="10462000" />
+      <workItem from="1579597520349" duration="5368000" />
     </task>
     <servers />
   </component>
@@ -63,13 +64,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579519452394">
+    <state x="1598" y="150" key="#Notifications" timestamp="1579597538189">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579519452394" />
+    <state x="1598" y="150" key="#Notifications/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579597538189" />
+    <state x="1460" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579598764776">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1460" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579598764776" />
+    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579602421381">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579602421381" />
     <state x="1507" y="134" key="SettingsEditor" timestamp="1579517158208">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
     <state x="1507" y="134" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579517158208" />
+    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579598739458">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579598739458" />
   </component>
 </project>
