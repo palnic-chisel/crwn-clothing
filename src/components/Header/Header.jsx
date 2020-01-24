@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import {auth} from "../../firebase/FirebaseUtils";
+import {connect} from 'react-redux'
 
 import {ReactComponent as Logo} from "../../assets/crown.svg";
 
@@ -32,4 +33,9 @@ const Header = ({currentUser}) => (
     </div>
 );
 
-export default Header;
+//Funzione che ci permette di accedere allo state del rootReducer. Il parametro state è il rootReducer. state.user è lo userReducer
+const mapStateToProps = (state) => ({
+    currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(Header);
