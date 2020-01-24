@@ -22,8 +22,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -60,7 +63,7 @@
       <workItem from="1579597520349" duration="15981000" />
       <workItem from="1579690341254" duration="8885000" />
       <workItem from="1579771369212" duration="9325000" />
-      <workItem from="1579857468198" duration="8578000" />
+      <workItem from="1579857468198" duration="12457000" />
     </task>
     <servers />
   </component>
@@ -68,6 +71,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1598" y="150" key="#ESLint" timestamp="1579878513764">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1598" y="150" key="#ESLint/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579878513764" />
     <state x="1598" y="150" key="#Notifications" timestamp="1579597538189">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
@@ -88,9 +95,9 @@
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
     <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579598739458" />
-    <state x="1669" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1579691665398">
+    <state x="1669" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1579878054578">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1669" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579691665398" />
+    <state x="1669" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579878054578" />
   </component>
 </project>
