@@ -2,12 +2,15 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import {auth} from "../../firebase/FirebaseUtils";
 import {connect} from 'react-redux'
+import {selectCartHidden} from "../../redux/cart/cart-selectors";
+import {selectCurrentUser} from '../../redux/user/user-selectors'
 
 import {ReactComponent as Logo} from "../../assets/crown.svg";
 
 import './HeaderStyle.scss'
 import CartIcon from "../CartIcon/CartIcon";
 import CartDropdown from "../CartDropdown/CartDropdown";
+import {createStructuredSelector} from "reselect";
 
 const Header = ({currentUser, hidden}) => (
     <div className='header'>
@@ -42,10 +45,10 @@ const Header = ({currentUser, hidden}) => (
     </div>
 );
 
-//Funzione che ci permette di accedere allo state del rootReducer. Il parametro state è il rootReducer. state.user è lo userReducer
-const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
-    currentUser,
-    hidden
+//Funzione che ci permette di passare l'intero state ai selector senza specificarlo per ogni funzione
+const mapStateToProps = createStructuredSelector ({
+    currentUser:selectCurrentUser,
+    hidden: selectCartHidden
 });
 
 export default connect(mapStateToProps)(Header);
