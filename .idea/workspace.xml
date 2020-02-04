@@ -35,7 +35,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +81,7 @@
       <workItem from="1580467417007" duration="6037000" />
       <workItem from="1580480632716" duration="1878000" />
       <workItem from="1580743067071" duration="5360000" />
-      <workItem from="1580810924723" duration="4401000" />
+      <workItem from="1580810924723" duration="7495000" />
     </task>
     <servers />
   </component>
@@ -93,10 +93,10 @@
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
     <state x="1598" y="150" key="#ESLint/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579878513764" />
-    <state x="1598" y="150" key="#Notifications" timestamp="1579597538189">
+    <state x="1598" y="150" key="#Notifications" timestamp="1580826691195">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1598" y="150" key="#Notifications/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579597538189" />
+    <state x="1598" y="150" key="#Notifications/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1580826691195" />
     <state x="1460" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579598764776">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
@@ -105,14 +105,18 @@
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
     <state x="1741" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1580469318316" />
-    <state x="1507" y="134" key="SettingsEditor" timestamp="1579517158208">
+    <state x="1786" y="246" key="FileChooserDialogImpl" timestamp="1580826010466">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1507" y="134" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579517158208" />
-    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579598739458">
+    <state x="1786" y="246" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1580826010466" />
+    <state x="1507" y="134" key="SettingsEditor" timestamp="1580826185805">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
-    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1579598739458" />
+    <state x="1507" y="134" key="SettingsEditor/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1580826185805" />
+    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580826039274">
+      <screen x="1366" y="0" width="1280" height="984" />
+    </state>
+    <state x="1813" y="403" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1280.984@1366.0.1280.984" timestamp="1580826039274" />
     <state x="1662" y="226" key="run.anything.popup" timestamp="1580469237062">
       <screen x="1366" y="0" width="1280" height="984" />
     </state>
