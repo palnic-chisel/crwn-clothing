@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux'
 
 import './SignInStyle.scss';
 import FormInput from "../form-input/FormInput";
 import CustomButton from "../custom-button/CustomButton";
 
-import {auth, signInWithGoogle} from "../../firebase/FirebaseUtils";
+import {googleSignInStart, emailSignInStart} from "../../redux/user/user-action";
 
 class SignIn extends Component {
     constructor() {
@@ -17,16 +18,9 @@ class SignIn extends Component {
 
     handleSubmit = async event => {
         event.preventDefault();
-
-        const {email, password}=this.state;
-        try {
-            await auth.signInWithEmailAndPassword(email, password);
-            this.setState({email: '', password: ''})
-        }catch (e) {
-            console.log(e);
-        }
-
-
+        const {emailSignInStart} = this.props;
+        const {email, password} = this.state;
+        emailSignInStart(email, password);
     };
 
     handleChange = event => {
@@ -35,6 +29,7 @@ class SignIn extends Component {
     };
 
     render() {
+        const {googleSignInStart} = this.props;
         return (
             <div className='sign-in'>
                 <h2>already have account</h2>
@@ -48,7 +43,8 @@ class SignIn extends Component {
                     <div className='buttons'>
                         <CustomButton type='submit'>Sign In</CustomButton>
                         <CustomButton
-                            onClick={signInWithGoogle} isGoogleSignIn>
+                            type='button'
+                            onClick={googleSignInStart} isGoogleSignIn>
                             Sign In With Google
                         </CustomButton>
                     </div>
@@ -59,4 +55,9 @@ class SignIn extends Component {
     }
 }
 
-export default SignIn;
+const mapDispatchToProps = dispatch => ({
+    googleSignInStart: () => dispatch(googleSignInStart()),
+    emailSignInStart: (email, password) => dispatch(emailSignInStart(email, password))
+});
+
+export default connect(null, mapDispatchToProps)(SignIn);

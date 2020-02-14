@@ -1,9 +1,10 @@
 import React from "react";
-import {Link} from 'react-router-dom';
 import {auth} from "../../firebase/FirebaseUtils";
 import {connect} from 'react-redux'
 import {selectCartHidden} from "../../redux/cart/cart-selectors";
 import {selectCurrentUser} from '../../redux/user/user-selectors'
+
+import {signOutStart} from "../../redux/user/user-action";
 
 import {ReactComponent as Logo} from "../../assets/crown.svg";
 
@@ -14,7 +15,7 @@ import {createStructuredSelector} from "reselect";
 
 import {HeaderContainer, OptionsContainer, LogoContainer, OptionLink} from './HeaderStyle'
 
-const Header = ({currentUser, hidden}) => (
+const Header = ({currentUser, hidden, signOutStart}) => (
     <HeaderContainer>
         <LogoContainer to='/'>
             <Logo className='logo'/>
@@ -28,7 +29,7 @@ const Header = ({currentUser, hidden}) => (
             </OptionLink>
             {
                 currentUser ?
-                    <OptionLink as='div' onClick={() => auth.signOut()}>
+                    <OptionLink as='div' onClick={signOutStart}>
                         SIGN OUT
                     </OptionLink>
                     :
@@ -48,9 +49,13 @@ const Header = ({currentUser, hidden}) => (
 );
 
 //Funzione che ci permette di passare l'intero state ai selector senza specificarlo per ogni funzione
-const mapStateToProps = createStructuredSelector ({
-    currentUser:selectCurrentUser,
+const mapStateToProps = createStructuredSelector({
+    currentUser: selectCurrentUser,
     hidden: selectCartHidden
 });
 
-export default connect(mapStateToProps)(Header);
+const mapDispatchToProps = dispatch => ({
+    signOutStart: () => dispatch(signOutStart())
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

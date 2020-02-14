@@ -1,4 +1,4 @@
-import { createSelector } from 'reselect';
+import {createSelector} from 'reselect';
 
 const selectShop = state => state.shop;
 
@@ -18,3 +18,14 @@ export const selectCollection = collectionUrlParam =>
         [selectCollections],
         collections => (collections ? collections[collectionUrlParam] : null)
     );
+
+export const selectIsCollectionFetching = createSelector(
+    [selectShop],
+    shop => shop.isFetching
+);
+
+//ritorna un bool che ci dice se la collezione è stata caricata
+export const selectIsCollectionLoaded = createSelector(
+    [selectShop],
+    shop => !!shop.collections
+)
