@@ -1,5 +1,4 @@
 import React from "react";
-import {auth} from "../../firebase/FirebaseUtils";
 import {connect} from 'react-redux'
 import {selectCartHidden} from "../../redux/cart/cart-selectors";
 import {selectCurrentUser} from '../../redux/user/user-selectors'
